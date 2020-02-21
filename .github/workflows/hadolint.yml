@@ -10,4 +10,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Install Dockder
         run: curl -sSL https://get.docker.com/ | sh
+      - name: Install hadolint
+        run: docker pull hadolint/hadolint
 
